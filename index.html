@@ -1,95 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+<body>
+    <main class="master-max">
+        <!------------------ profile en fila ---------------->
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+        <div class="card-profile bor-rads">
+            <figure class="content-img-profile">
+                <img class="img-profile bor-rads" src="./foto.jpg" alt="">
+            </figure>
+            <div class="section-datos">
+                <div class="datos-pers">
+                    <div>
+                        <p class="mb-5 mt-0 title-profile">Fiorella Herrera</p>
+                        <p class="mt-0 subtitle-profile">Front-end Developer</p>
+                    </div>
+                    <div>
+                        <div class="align-datos">
+                            <span class="material-icons icon">
+                                email
+                            </span>
+                            <p class="mb-5 mt-0 letra-contact">hsaavedrafiore@gmail.com</p>
+                        </div>
+                        <div class="align-datos">
+                            <span class="material-icons icon">
+                                call
+                            </span>
+                            <p class="mb-0 mt-0 letra-contact">(+51)979109245</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="letra-text">Self-motivated developer, who is willing to learn and create outstanding
+                        UI applications.</p>
+                    <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+                        feugiat malesuada molestie.</p>
+                </div>
+            </div>
+        </div>
 
-    <title>Devchallenges</title>
+        <!------------------ profile column ---------------->
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+        <div class="card-profile-sm bor-rads">
+            <figure class="mg-0">
+                <img class="bor-rads" src="./foto.jpg" alt="">
+            </figure>
+            <div>
+                <div>
+                    <div>
+                        <p class="mb-5  title-profile">Fiorella Herrera</p>
+                        <p class="mt-0 subtitle-profile">Front-end Developer</p>
+                    </div>
+                    <div>
+                        <div class="align-datos">
+                            <span class="material-icons icon">
+                                email
+                            </span>
+                            <p class="mb-5 mt-0 letra-contact">hsaavedrafiore@gmail.com</p>
+                        </div>
+                        <div class="align-datos">
+                            <span class="material-icons icon">
+                                call
+                            </span>
+                            <p class="mb-0 mt-0 letra-contact">(+51)979109245</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-text-prof-sm">
+                    <p class="letra-text">Self-motivated developer, who is willing to learn and create outstanding
+                        UI applications.</p>
+                </div>
+            </div>
+        </div>
 
-      ul {
-        padding-left: 24px;
-      }
 
-      li {
-        margin-bottom: 8px;
-      }
+        <!------------------ projects file ---------------->
+        <div class="card-project bor-rads">
+            <figure class="content-img-project">
+                <img class="bor-rads" src="./recipe-page.PNG" alt="">
+            </figure>
+            <div class="section-datos">
+                <div>
+                    <p class="letra-hashtag mt-0">#HTML #CSS #responsive</p>
+                </div>
+                <div class="description-poject">
+                    <p class="title mt-0">Recipe Blog</p>
+                    <p class="letra-text">In this project, I work with HTML and CSS to create a responsive page .
+                        The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin
+                        id. Quisque feugiat malesuada molestie.</p>
+                </div>
+                <div class="section-buttons">
+                    <a class="button-azul bor-rads letra-button mr-5" href="#">Demo</a>
+                    <a class="button bor-rads letra-button" href="#">Code</a>
+                </div>
+            </div>
+        </div>
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
+        <!------------------ projects column ---------------->
+        <div class="card-project-sm bor-rads">
+            <figure class="mg-0">
+                <img class="bor-rads" src="./recipe-page.PNG" alt="">
+            </figure>
+            <div class="section-projects">
+                <div>
+                    <p class="letra-hashtag ">#HTML #CSS #responsive</p>
+                </div>
+                <div class="description-poject">
+                    <p class="title mt-0">My Gallery</p>
+                    <p class="letra-text">In this project, I work with HTML and CSS to create a responsive page .
+                        The design is from devchallenge.io.</p>
+                </div>
+                <div class="section-buttons-sm">
+                    <a class="button-azul bor-rads letra-button mr-5" href="#">Demo</a>
+                    <a class="button bor-rads letra-button" href="#">Code</a>
+                </div>
+            </div>
+        </div>
 
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
+        <!------------------ habilidades en file ---------------->
 
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
+        <div class="card-habilidades bor-rads">
+            <div>
+                <p class="title-habilidades mt-0">FRONT END</p>
+            </div>
+            <div class="content-porcentaje-habilidades">
+                <div class="division-habilidades">
+                    <div class="flex">
+                        <div class="espacio-title-habilidades">
+                            <p class="mt-0 subtitle-habilidades">React</p>
+                        </div>
+                        <div class="content-capa-porcentaje">
+                            <div class="capa-porcentaje">
+                                <div style="width: 70%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
 
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+                    <div class="flex">
+                        <div class="espacio-title-habilidades">
+                            <p class="mt-0 subtitle-habilidades">Javascript</p>
+                        </div>
+                        <div class="content-capa-porcentaje">
+                            <div class="capa-porcentaje">
+                                <div style="width: 80%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+                    <div class="flex">
+                        <div class="espacio-title-habilidades">
+                            <p class="mt-0 subtitle-habilidades">CSS</p>
+                        </div>
+                        <div class="content-capa-porcentaje">
+                            <div class="capa-porcentaje">
+                                <div style="width: 90%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
-  </body>
+                </div>
+                <div class="division-habilidades">
+                    <div class="flex">
+                        <div class="espacio-title-habilidades">
+                            <p class="mt-0 subtitle-habilidades">Vue</p>
+                        </div>
+                        <div class="content-capa-porcentaje">
+                            <div class="capa-porcentaje">
+                                <div style="width: 70%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="espacio-title-habilidades">
+                            <p class="mt-0 subtitle-habilidades">Redux</p>
+                        </div>
+                        <div class="content-capa-porcentaje">
+                            <div class="capa-porcentaje">
+                                <div style="width: 80%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="espacio-title-habilidades">
+                            <p class="mt-0 subtitle-habilidades">React Native</p>
+                        </div>
+                        <div class="content-capa-porcentaje">
+                            <div class="capa-porcentaje">
+                                <div style="width: 90%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------ habilidades en column ---------------->
+
+        <div class="card-habilidades-sm bor-rads">
+            <div>
+                <p class="title-habilidades mt-0">FRONT END</p>
+            </div>
+            <div>
+                <div>
+                    <div class="flex">
+                        <div class="espacio-title-habilidades-sm">
+                            <p class="mt-0 subtitle-habilidades">React</p>
+                        </div>
+                        <div class="content-capa-porcentaje-sm">
+                            <div class="capa-porcentaje">
+                                <div style="width: 70%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="espacio-title-habilidades-sm">
+                            <p class="mt-0 subtitle-habilidades">Javascript</p>
+                        </div>
+                        <div class="content-capa-porcentaje-sm">
+                            <div class="capa-porcentaje">
+                                <div style="width: 80%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="espacio-title-habilidades-sm">
+                            <p class="mt-0 subtitle-habilidades">CSS</p>
+                        </div>
+                        <div class="content-capa-porcentaje-sm">
+                            <div class="capa-porcentaje">
+                                <div style="width: 90%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="espacio-title-habilidades-sm">
+                            <p class="mt-0 subtitle-habilidades">Vue</p>
+                        </div>
+                        <div class="content-capa-porcentaje-sm">
+                            <div class="capa-porcentaje">
+                                <div style="width: 70%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="espacio-title-habilidades-sm">
+                            <p class="mt-0 subtitle-habilidades">Redux</p>
+                        </div>
+                        <div class="content-capa-porcentaje-sm">
+                            <div class="capa-porcentaje">
+                                <div style="width: 80%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="espacio-title-habilidades-sm">
+                            <p class="mt-0 subtitle-habilidades">React Native</p>
+                        </div>
+                        <div class="content-capa-porcentaje-sm">
+                            <div class="capa-porcentaje">
+                                <div style="width: 90%;" class="porcentaje"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!------------------ blog file ---------------->
+        <div class="card-blog bor-rads">
+            <div class="section-blog">
+                <div>
+                    <p class="letra-blog mt-0">Blog</p>
+                    <div class="responsive-cabecera-blog">
+                        <p class="title title-blog mt-0">How to organize your CSS</p>
+                        <figure class="content-img-blog-flex">
+                            <img class="bor-rads" src="./imagen-css.jpg" alt="">
+                        </figure>
+                    </div>
+                    <p class="letra-text">In this article I tell the story about Proin eu justo sit amet lacus
+                        bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. </p>
+                    <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+                        feugiat malesuada molestie.</p>
+                    <a class="link-blog" href="#">dev.to</a>
+                </div>
+
+            </div>
+            <figure class="content-img-blog">
+                <img class="bor-rads" src="./imagen-css.jpg" alt="">
+            </figure>
+        </div>
+
+
+        <!------------------ blog column ---------------->
+
+        <div class="card-blog-sm bor-rads">
+            <div>
+                <p class="letra-blog mt-0">Blog</p>
+                <div class="bloque-blog-sm">
+                    <p class="title title-blog-sm mt-0">How to organize your CSS</p>
+                    <figure class="content-img-blog-sm">
+                        <img class="bor-rads" src="./imagen-css.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="card2-blog-sm">
+                    <p class="letra-text">In this article I tell the story about Proin eu justo sit amet lacus
+                        bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. </p>
+                    <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+                        feugiat malesuada molestie.</p>
+                    <a class="link-blog" href="#">dev.to</a>
+                </div>
+            </div>
+        </div>
+
+        <!------------------ experiences file ---------------->
+
+        <div class="card-experiences bor-rads">
+            <div>
+                <p class="title mt-0">Experiences</p>
+                <div class="content-card-experiences">
+                    <div class="bloque-experience">
+                        <div class="content-img-experience">
+                            <img src="./logo-adidas.png" alt="">
+                        </div>
+                        <div class="content-bloque-experience">
+                            <p class="text-fecha-exp">Feb 2017 - Current</p>
+                            <p class="title-exper">Front-end developer</p>
+                            <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                                Quisque feugiat malesuada molestie.</p>
+                        </div>
+                    </div>
+                    <div class="bloque-experience">
+                        <div class="content-img-experience">
+                            <img src="./logo-adidas.png" alt="">
+                        </div>
+                        <div class="content-bloque-experience">
+                            <p class="text-fecha-exp">Feb 2017 - Current</p>
+                            <p class="title-exper">Front-end developer</p>
+                            <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                                Quisque feugiat malesuada molestie.</p>
+                        </div>
+                    </div>
+                    <div class="bloque-experience">
+                        <div class="content-img-experience">
+                            <img src="./logo-adidas.png" alt="">
+                        </div>
+                        <div class="content-bloque-experience">
+                            <p class="text-fecha-exp">Feb 2017 - Current</p>
+                            <p class="title-exper">Front-end developer</p>
+                            <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                                Quisque feugiat malesuada molestie.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------ experiences column ---------------->
+        <div class="card-experiences-sm bor-rads">
+            <div>
+                <p class="title mt-0">Experiences</p>
+                <div>
+                    <div class="bloque-experience-sm">
+                        <div class="content-img-experience">
+                            <img src="./logo-adidas.png" alt="">
+                        </div>
+                        <div class="content-bloque-experience">
+                            <p class="text-fecha-exp">Feb 2017 - Current</p>
+                            <p class="title-exper">Front-end developer</p>
+                            <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                                Quisque feugiat malesuada molestie.</p>
+                        </div>
+                    </div>
+                    <div class="bloque-experience-sm">
+                        <div class="content-img-experience">
+                            <img src="./logo-adidas.png" alt="">
+                        </div>
+                        <div class="content-bloque-experience">
+                            <p class="text-fecha-exp">Feb 2017 - Current</p>
+                            <p class="title-exper">Front-end developer</p>
+                            <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                                Quisque feugiat malesuada molestie.</p>
+                        </div>
+                    </div>
+                    <div class="bloque-experience-sm">
+                        <div class="content-img-experience">
+                            <img src="./logo-adidas.png" alt="">
+                        </div>
+                        <div class="content-bloque-experience">
+                            <p class="text-fecha-exp">Feb 2017 - Current</p>
+                            <p class="title-exper">Front-end developer</p>
+                            <p class="letra-text">Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                                Quisque feugiat malesuada molestie.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------ Hobbies file ---------------->
+        <div class="card-hobbies bor-rads">
+            <div>
+                <p class="title mt-0">Hobbies</p>
+                <div class="content-section-hobbies">
+                    <div class="div-sections-hobbies">
+                        <img class="bor-rads" src="./cooking.jpg" alt="">
+                        <p class="title-hobbies">Gaming</p>
+                        <p class="letra-text">Quisque feugiat malesuada molestie.</p>
+                    </div>
+                    <div class="div-sections-hobbies">
+                        <img class="bor-rads" src="./cooking.jpg" alt="">
+                        <p class="title-hobbies">Cooking</p>
+                        <p class="letra-text">Quisque feugiat malesuada molestie.</p>
+                    </div>
+                    <div class="div-sections-hobbies">
+                        <img class="bor-rads" src="./cooking.jpg" alt="">
+                        <p class="title-hobbies">Biking</p>
+                        <p class="letra-text">Quisque feugiat malesuada molestie.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------ Hobbies column ---------------->
+        <div class="card-hobbies-sm bor-rads">
+            <div>
+                <p class="title mt-0">Hobbies/ Certificates</p>
+                <div>
+                    <div class="mb-30">
+                        <img class="bor-rads" src="./cooking.jpg" alt="">
+                        <p class="title-hobbies">Gaming</p>
+                        <p class="letra-text">Quisque feugiat malesuada molestie.</p>
+                    </div>
+                    <div class="mb-30">
+                        <img class="bor-rads" src="./cooking.jpg" alt="">
+                        <p class="title-hobbies">Cooking</p>
+                        <p class="letra-text">Quisque feugiat malesuada molestie.</p>
+                    </div>
+                    <div>
+                        <img class="bor-rads" src="./cooking.jpg" alt="">
+                        <p class="title-hobbies">Biking</p>
+                        <p class="letra-text">Quisque feugiat malesuada molestie.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------ more projects1 file ---------------->
+        <div class="card-project bor-rads">
+            <p class="title mt-0 mb-0">Projects (3)</p>
+        </div>
+
+        <!------------------ more projects(3) file ---------------->
+        <div class="card-project-2 bor-rads">
+            <div>
+                <p class="title mt-5">Projects (3)</p>
+            </div>
+            <div class="content-buttons">
+                <div class="border-buttons">
+                    <a class="letra-button button-normal bor-rads mr-5" href="#">React</a>
+                </div>
+                <div class="border-buttons">
+                    <a class="button bor-rads letra-button mr-5" href="#">Vue</a>
+                </div>
+                <div>
+                    <a class="button-azul bor-rads letra-button" href="#">Responsive</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!------------------ páginas siguientes file ---------------->
+        <div class="card-pags-sgts bor-rads">
+            <div class="border-pags-sgts mr-12">
+                <a href="#" class="number-pags-sgts color-nummber">
+                    < </a href="#">
+            </div>
+            <div class="border-pags-sgts mr-12">
+                <a href="#" class="number-pags-sgts color-nummber">1</a>
+            </div>
+            <div class="border-azul-pags-sgts button-azul mr-12">
+                <a href="#" class="number-pags-sgts color-number-white">2</a>
+            </div>
+            <div class="border-azul-pags-sgts mr-12">
+                <a href="#" class="number-pags-sgts color-number-azul">3</a>
+            </div>
+            <div class="mr-12">
+                <a href="#" class="number-pags-sgts">...</a>
+            </div>
+            <div class="border-pags-sgts mr-12">
+                <a href="#" class="number-pags-sgts">10</a>
+            </div>
+            <div class="border-pags-sgts mr-12">
+                <a href="#" class="number-pags-sgts"> > </a>
+            </div>
+        </div>
+
+
+
+    </main>
+</body>
 </html>

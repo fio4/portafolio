@@ -1,0 +1,614 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+img {
+    max-width: 100%;
+}
+
+.master-max {
+    max-width: 1040px;
+    min-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.bor-rads {
+    border-radius: 12px;
+}
+
+.mg-0 {
+    margin: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-12 {
+    margin-right: 12px;
+}
+
+.f-end {
+    justify-content: flex-end;
+}
+
+/* ------------------------------------------- */
+
+/* .content-card {
+    margin-bottom: 20px;
+} */
+
+.card-profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.content-img {
+    margin: 0;
+    width: 30%;
+}
+
+.content-img-profile {
+    margin: 0;
+    width: 30%;
+}
+
+.content-img-project {
+    margin: 0;
+    width: 30%;
+}
+
+.datos-pers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-datos {
+    width: 67%;
+}
+
+.align-datos {
+    display: flex;
+    align-items: center;
+}
+
+.title-profile {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.subtitle-profile {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #828282;
+}
+
+.letra-contact {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.icon {
+    color: #4F4F4F;
+    margin-right: 5px;
+}
+
+.letra-text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #828282;
+}
+
+.card-profile-sm {
+    width: 38%;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-text-prof-sm {
+    width: 85%;
+}
+
+.letra-hashtag {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+}
+
+.letra-button {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.button-azul {
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    background: #5C94E1;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    border: 1px solid #5C94E1;
+    padding: 10px 30px;
+    color: #5C94E1;
+}
+
+.button-normal {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black;
+}
+
+.card-project {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* .content-img-projects{
+    margin: 0;
+    width: 33%;
+} */
+
+/* .section-projects{
+    width: 65%;
+} */
+
+.description-poject {
+    width: 88%;
+}
+
+.section-buttons {
+    margin-top: 62px;
+}
+
+.card-project-sm {
+    width: 38%;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-buttons-sm {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.card-habilidades {
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.title-habilidades {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.subtitle-habilidades {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+.content-porcentaje-habilidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espacio-title-habilidades {
+    width: 26%;
+}
+
+.division-habilidades {
+    width: 49%;
+}
+
+.content-capa-porcentaje {
+    width: 70%;
+}
+
+.capa-porcentaje {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #C4C4C4;
+}
+
+.porcentaje {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+    background: rgba(47, 128, 237, 0.7);
+}
+
+.card-habilidades-sm {
+    width: 38%;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.espacio-title-habilidades-sm {
+    width: 36%;
+}
+
+.content-capa-porcentaje-sm {
+    width: 63%;
+}
+
+.card-blog {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.letra-blog {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #E0E0E0;
+}
+
+.title-blog {
+    width: 37%;
+}
+
+.section-blog {
+    width: 56%;
+}
+
+.content-img-blog {
+    width: 41%;
+    margin: 0;
+}
+
+.link-blog {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #5C94E1;
+}
+
+.card-blog-sm {
+    width: 53%;
+    background: white;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bloque-blog-sm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-blog-sm {
+    width: 35%;
+}
+
+.content-img-blog-sm {
+    width: 48%;
+    margin: 0;
+}
+
+.card2-blog-sm {
+    padding-right: 20px;
+}
+
+.card-experiences {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-card-experiences {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloque-experience {
+    width: 31%;
+    display: flex;
+}
+
+.content-img-experience {
+    width: 30%;
+}
+
+.content-bloque-experience {
+    width: 67%;
+}
+
+.text-fecha-exp {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+}
+
+.title-exper {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.card-experiences-sm {
+    width: 38%;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bloque-experience-sm {
+    display: flex;
+}
+
+.card-project-2 {
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-hobbies {
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-section-hobbies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-sections-hobbies {
+    width: 31%;
+}
+
+.title-hobbies {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+.card-hobbies-sm {
+    width: 38%;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-pags-sgts {
+    display: flex;
+    background: white;
+    padding: 20px;
+}
+
+.border-pags-sgts {
+    border: 1px solid #4F4F4F;
+    border-radius: 6px;
+    padding: 7px 12px;
+}
+
+.border-azul-pags-sgts {
+    border: 1px solid #5C94E1;
+    border-radius: 6px;
+    padding: 7px 12px;
+}
+
+.number-pags-sgts {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.color-nummber {
+    color: #4F4F4F;
+}
+
+.color-number-white {
+    color: white;
+}
+
+.color-number-azul {
+    color: #5C94E1;
+}
+
+.content-img-blog-flex {
+    display: none;
+}
+
+.content-buttons {
+    display: flex;
+}
+
+.section1-ex1 {
+    width: 40%;
+}
+
+.content2-exp1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2-ex1 {
+    width: 58%;
+}
+
+.card-habilidades-sm-exp1, .card-hobbies-sm-exp1, .card-blog-sm-exp1, .card-experiences-sm-exp1 {
+    width: 100%;
+}
+
+.bloque-experience-exp1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-project-sm-exp1 {
+    width: 32%;
+}
+
+.content-habilid-exp2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-profile-sm-exp2, .card-experiences-sm-exp2, .card-hobbies-sm-exp2 {
+    width: 100%;
+}
+
+.content-bloq1-exp2 {
+    width: 35%;
+}
+
+.content-bloq2-exp2 {
+    width: 62%;
+}
+
+.portafolio-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-habilidades-sm-exp2 {
+    width: 48%;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
+@media (max-width: 850px) {
+    .content-img-profile, .content-img-project, .section-datos, 
+    .card-profile-sm, .card-project-sm, .division-habilidades, 
+    .card-habilidades-sm, .bloque-experience, .card-experiences-sm, .section-blog, 
+    .div-sections-hobbies, .card-hobbies-sm, .content-bloq1-exp2, .content-bloq2-exp2 {
+        width: 100%;
+    }
+    .card-profile, .datos-pers, .card-project, .content-porcentaje-habilidades, .content-section-hobbies,
+    .content-buttons, .content2-exp1, .bloque-experience-exp1, .portafolio-2, .content-habilid-exp2 {
+        display: block;
+    }
+    .content-img-blog {
+        display: none;
+    }
+    .content-img-blog-flex {
+        display: flex;
+        width: 65%;
+        margin: 0;
+    }
+
+    .title-blog {
+        width: 26%;
+    }
+    .responsive-cabecera-blog {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-blog-sm {
+        width: 100%;
+    }
+    .content-img-blog-sm {
+        width: 60%;
+    }
+    .title-blog-sm {
+        width: 29%;
+    }
+    .content-card-experiences {
+        display: block;
+    }
+    
+    .border-buttons {
+        margin-bottom: 35px;
+    }
+   
+    .section1-ex1, .section2-ex1 {
+        width: 100%;
+    }
+    
+}
